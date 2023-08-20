@@ -20,7 +20,7 @@ const AboutMe = () => {
                     <h1 className="text-white font-bold text-3xl font-serif py-2 lg:w-[75%] sm:w-[80%] w-full leading-10">
                         I Provide the Best Content <span className="text-myGreen">Writing</span> Service</h1>
                     <p className="text-textGrey pt-4 lg:w-[75%] sm:w-[80%] w-full">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry{`'`}s
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
                         standard dummy text ever since the 1500s
                     </p>
                     <button onClick={handleDownloadResume}
