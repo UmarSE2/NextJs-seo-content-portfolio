@@ -4,11 +4,11 @@ import Link from "next/link";
 import { useState } from "react";
 
 export const navData = [
-    { name: 'About', path: '' },
-    { name: 'Service', path: '' },
-    { name: 'About', path: '' },
-    { name: 'Features', path: '' },
-    { name: 'Contact', path: '' },
+    { name: 'Home', path: '#home' },
+    { name: 'Service', path: '#services' },
+    { name: 'About', path: '#about' },
+    { name: 'Features', path: '#features' },
+    { name: 'Contact', path: '#contact' },
 ];
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <Link href="/">
                         <h1 className="text-myGreen font-semibold text-3xl tracking-wider">GulWrites</h1>
                     </Link>
-                    <div className="flex flex-row lg:hidden">
+                    <div className="flex flex-row md:hidden">
                         <div className="cursor-pointer text-myGreen" onClick={toggleMenu}>
                             {/* Menu Icon */}
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className={`hidden lg:flex flex-row font-semibold text-myBlue gap-x-1`}>
+                <div className={`hidden md:flex flex-row font-semibold text-myBlue gap-x-1`}>
                     {navData.map((item, index) => {
                         return (
                             <Link key={item.name} href={item.path}>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
                 <div className="flex items-center">
                     <div
-                        className={`fixed bg-textGrey text-greenGrey font-semibold pb-10 text-xl top-0 left-0 w-full mt-20 border border-gray-300 p-4 
+                        className={`fixed z-50 bg-textGrey text-greenGrey font-semibold pb-10 text-xl top-0 left-0 w-full mt-20 border border-gray-300 p-4 
                         transform transition-transform ease-in-out duration-300 ${isMenuOpen ? "translate-x-0" : "-translate-x-full"} md:hidden`}
                     >
                         <div className="flex flex-col space-y-4">

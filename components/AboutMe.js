@@ -10,7 +10,7 @@ const AboutMe = () => {
     };
 
     return (
-        <>
+        <section id="about">
             <div className="flex md:flex-row flex-col w-full items-center justify-center py-10">
                 <div className="w-full items-center flex justify-center">
                     <img src={"/woman-library.jpg"} alt="image" className="w-80 h-96" />
@@ -30,7 +30,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <hr className="w-full border-mySkyBlue border-1.5 mt-10" />
-        </>
+        </section>
     );
 }
 
