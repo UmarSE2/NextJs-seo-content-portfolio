@@ -26,7 +26,7 @@ const MainContent = () => {
                         className='w-full md:w-[450px] h-64 border-[3px] border-myGreen rounded-bl-[80px] rounded-tr-[80px]' />
                     <div className='flex flex-col items-center md:ml-16 mt-8'>
                         <p className='text-textGrey font-medium pb-6 lg:w-96 w-60 text-center'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry{`'`}s standard dummy text ever since the 1500s,
                         </p>
                         <Link href="#contact">
                             <button className="text-myGreen border-button w-32 hover:bg-myGreen hover:text-bgGreen font-semibold
