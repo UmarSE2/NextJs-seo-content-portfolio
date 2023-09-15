@@ -7,10 +7,7 @@ const Whatsapp = () => {
 
     return (
         <div className='relative group z-50'>
-            <Link
-                href={`https://api.whatsapp.com/send?phone=${phoneNumber}`}
-                passHref
-            >
+            <Link href={`https://api.whatsapp.com/send?phone=${phoneNumber}`} passHref>
                 <div
                     target='_blank'
                     rel='noopener noreferrer'

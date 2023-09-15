@@ -18,7 +18,6 @@ const Upward = () => {
                 setShowScrollButton(false);
             }
         };
-
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -28,8 +27,7 @@ const Upward = () => {
     return (
         <div className='relative z-50'>
             {showScrollButton && (
-                <div
-                    className='fixed bottom-10 right-6 bg-myGreen p-2 rounded-full shadow cursor-pointer button'
+                <div className='fixed bottom-10 right-6 bg-myGreen p-2 rounded-full shadow cursor-pointer button'
                     onClick={scrollToTop}
                 >
                     <FaArrowCircleUp size={32} color='#001b29' />
