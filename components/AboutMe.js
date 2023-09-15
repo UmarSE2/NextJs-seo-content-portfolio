@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import React from "react";
 
 const AboutMe = () => {
@@ -13,7 +14,7 @@ const AboutMe = () => {
         <section id="about">
             <div className="flex md:flex-row flex-col w-full items-center justify-center py-10">
                 <div className="w-full items-center flex justify-center">
-                    <img src={"/woman-library.jpg"} alt="image" className="w-80 h-96" />
+                    <Image width={300} height={200} src={"/woman-library.jpg"} alt="image" className="w-80 h-96" />
                 </div>
                 <div className="w-full flex flex-col lg:items-start items-center lg:text-left text-center">
                     <h2 className="text-myGreen font-semibold py-2 text-lg pt-10 md:pt-0">About Me</h2>

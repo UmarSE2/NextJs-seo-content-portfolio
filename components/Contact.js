@@ -13,7 +13,7 @@ const page = () => {
                         <ContactForm />
                     </div>
                     <div className="w-full flex flex-row md:items-start items-center justify-center md:justify-end">
-                        <img src={"/contactBg.png"} alt="image" className="w-[500px]" />
+                        <Image width={500} height={200} src={"/contactBg.png"} alt="image" className="w-auto h-auto" />
                     </div>
                 </div>
                 <hr className="w-full border-mySkyBlue border-1.5 mt-10" />

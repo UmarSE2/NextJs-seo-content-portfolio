@@ -6,7 +6,7 @@ function ClientsFigures() {
     return (
         <div className="w-full self-center bg-greenGrey text-center py-10 relative pt-10">
             <div className="triangle"></div>
-            <strong className="xl:text-[40px] md:text-[30px] text-myGreen font-bold">Captivating Stories</strong>
+            <strong className="lg:text-4xl md:text-3xl text-2xl text-myGreen font-bold">Captivating Stories</strong>
             <div className="flex flex-col md:flex-row justify-evenly md:gap-x-6 mt-16 text-mySkyBlue">
                 <div className="mb-6 md:mb-0">
                     <div className="text-2xl text-white xl:text-4xl font-extrabold mb-2">

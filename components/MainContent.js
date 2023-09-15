@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -6,7 +7,7 @@ const MainContent = () => {
         <section id='hero'>
             <div className='w-full flex flex-col pt-10 pb-20 self-center'>
                 <div className='w-full flex flex-col-reverse md:flex-row md:h-48 h-auto md:pt-8 pt-0'>
-                    <img src='/girlWriting.png' alt='image'
+                    <Image width={200} height={200} src='/girlWriting.png' alt='image'
                         className='w-full md:w-64 h-60 z-10 border-[3px] border-mySkyBlue rounded-br-[130px]' />
                     <div className='flex flex-col md:flex-row items-center md:items-start md:ml-8 mt-4'>
                         <div className='flex flex-col items-center md:ml-8 ml-0'>
@@ -22,7 +23,7 @@ const MainContent = () => {
                 </div>
 
                 <div className='w-full flex flex-col md:flex-row md:pl-16 mt-8'>
-                    <img src='/girlWriting2.png' alt='image'
+                    <Image width={4500} height={200} src='/girlWriting2.png' alt='image'
                         className='w-full md:w-[450px] h-64 border-[3px] border-myGreen rounded-bl-[80px] rounded-tr-[80px]' />
                     <div className='flex flex-col items-center md:ml-16 mt-8'>
                         <p className='text-textGrey font-medium pb-6 lg:w-96 w-60 text-center'>
