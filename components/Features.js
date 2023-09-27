@@ -7,22 +7,22 @@ const data = [
     {
         icon: <BiDesktop size={30} />,
         title: 'High Quality',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        desc: 'Elevate your content with our high-quality writing services, tailored to engage your audience and boost your online presence.',
     },
     {
         icon: <AiFillFileText size={30} />,
         title: 'SEO Optimized',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        desc: 'Harness the power of SEO with expertly crafted content, designed to rank higher and drive organic traffic to your website.',
     },
     {
         icon: <AiFillHdd size={30} />,
         title: 'Organic Content',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        desc: 'Nurture your online growth with organic content solutions, crafted to resonate with your target audience and build lasting connections.',
     },
     {
         icon: <RiFileTextLine size={30} />,
         title: 'Fast Service',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        desc: 'Get results in record time with lightning-fast content creation and SEO optimization services, ensuring you stay ahead in the digital race.',
     },
 ];
 
@@ -34,9 +34,9 @@ const Features = () => {
                     <h2 className='text-textGrey font-semibold text-lg pt-16 pb-8'>Explore My Features</h2>
                     <h1 className='text-myGreen font-serif font-bold tracking-wide text-3xl pb-8'>Crafting Words<span className='text-white'>,</span> Inspiring Worlds</h1>
                     <p className='text-textGrey font-medium leading-7'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        I excel in on-page and off-page optimization,
+                        possess strong keyword research skills, and create engaging, informative content. Proficiency in Google Analytics
+                        and SEO tools further distinguishes my capabilities
                     </p>
                 </div>
                 <div className="flex flex-row flex-wrap w-full py-12">

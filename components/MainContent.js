@@ -12,9 +12,9 @@ const MainContent = () => {
                     <div className='flex flex-col md:flex-row items-center md:items-start md:ml-8 mt-4'>
                         <div className='flex flex-col items-center md:ml-8 ml-0'>
                             <p className='text-white font-semibold tracking-wide text-4xl font-serif pb-6'>
-                                Content <span className='text-myGreen'>Writing</span>
+                                <span className='text-myGreen'>SEO Content Writing</span>
                             </p>
-                            <p className='text-white text-center md:text-start font-semibold tracking-wide text-3xl md:text-4xl font-serif pb-6'>
+                            <p className='text-white italic text-center md:text-start font-semibold tracking-wide text-3xl md:text-4xl font-serif pb-6'>
                                 Services You Can Trust
                             </p>
                         </div>
@@ -27,7 +27,7 @@ const MainContent = () => {
                         className='w-full md:w-[450px] h-64 border-[3px] border-myGreen rounded-bl-[80px] rounded-tr-[80px]' />
                     <div className='flex flex-col items-center md:ml-16 mt-8'>
                         <p className='text-textGrey font-medium pb-6 lg:w-96 w-60 text-center'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry{`'`}s standard dummy text ever since the 1500s,
+                            Your Journey to SEO Success Starts Here. Join Me in Boosting Your Website's Performance Today and Compelling Content!
                         </p>
                         <Link href="#contact">
                             <button className="text-myGreen border-button w-32 hover:bg-myGreen hover:text-bgGreen font-semibold

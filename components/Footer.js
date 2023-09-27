@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="flex flex-wrap w-full py-8 justify-around font-serif sm:col-span-4 text-textGrey xl:px-20 lg:px-6 px-2">
             <div className="w-full md:w-1/2 lg:w-1/4 p-4 lg:items-start md:items-center items-start flex flex-col cursor-default">
                 <h2 className="font-semibold text-3xl mb-2 text-myGreen">GulWrites</h2>
-                <p className="mb-4 lg:text-left text-left sm:text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p className="mb-4 lg:text-left text-left tracking-wide sm:text-center">
+                    Fueling digital success through the art of SEO and the magic of compelling content.
+                </p>
             </div>
             <div className="w-full md:w-1/2 lg:w-auto p-4 lg:items-start md:items-center items-start flex flex-col">
                 <h2 className="font-semibold text-xl mb-3 text-myGreen cursor-default">Get in Touch</h2>
@@ -30,9 +32,6 @@ const Footer = () => {
             <div className="w-full md:w-1/2 lg:w-auto p-4 md:items-center items-start flex flex-col">
                 <h2 className="font-semibold text-xl mb-2 text-myGreen cursor-default">Follow Me</h2>
                 <div className="flex space-x-4 items-center mt-2">
-                    <div>
-                        <BsFacebook size={32} className="button cursor-pointer" />
-                    </div>
                     <div>
                         <AiFillLinkedin size={38} className="button cursor-pointer" />
                     </div>

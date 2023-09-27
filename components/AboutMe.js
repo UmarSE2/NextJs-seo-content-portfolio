@@ -21,8 +21,9 @@ const AboutMe = () => {
                     <h1 className="text-white font-bold text-3xl font-serif py-2 lg:w-[75%] sm:w-[80%] w-full leading-10">
                         I Provide the Best Content <span className="text-myGreen">Writing</span> Service</h1>
                     <p className="text-textGrey pt-4 lg:w-[75%] sm:w-[80%] w-full">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
-                        standard dummy text ever since the 1500s
+                        I aim to provide a brief yet insightful glimpse into my journey as an SEO and content writing professional.
+                        I've honed my skills in optimizing online content and driving organic traffic.
+                        My commitment to staying ahead in this ever-evolving field ensures I deliver results for clients and partners alike.
                     </p>
                     <button onClick={handleDownloadResume}
                         className="bg-myGreen w-36 tracking-wide text-greenGrey rounded-sm font-bold text-base px-2 py-2 mt-10">

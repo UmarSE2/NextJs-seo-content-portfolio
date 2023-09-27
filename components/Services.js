@@ -7,33 +7,33 @@ import { BiDesktop } from 'react-icons/bi';
 const servicesData = [
     {
         icon: <BiDesktop size={28} />,
-        title: 'Website Content',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-    {
-        icon: <AiFillFileText size={28} />,
-        title: 'SEO Article',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-    {
-        icon: <AiFillHdd size={28} />,
-        title: 'Homework & Assignments',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    },
-    {
-        icon: <RiFileTextLine size={28} />,
-        title: 'Research Papers',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        title: 'Search Engine Optimization',
+        desc: 'I specializes in optimizing websites to improve their visibility on search engines, helping businesses reach a wider audience and increase online traffic.',
     },
     {
         icon: <BsFillClipboard2DataFill size={28} />,
-        title: 'Thesis',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        title: 'Website Rank',
+        desc: 'I employ cutting-edge strategies to enhance your website ranking on search engine results pages, ensuring that your site is easily discoverable by potential customers.',
+    },
+    {
+        icon: <AiFillFileText size={28} />,
+        title: 'SEO Articles',
+        desc: 'I specializes in creating SEO-optimized articles that provide to both search engine algorithms and your target audience. These articles are designed to boost your websites visibility in search results.',
+    },
+    {
+        icon: <AiFillHdd size={28} />,
+        title: 'Website Content',
+        desc: 'I offer comprehensive website content services, ensuring that every page of your site is filled with relevant and engaging information. Our goal is to not only improve your search engine rankings but also create a user-friendly experience.',
+    },
+    {
+        icon: <RiFileTextLine size={28} />,
+        title: 'Blog Posts',
+        desc: 'I am skilled at crafting informative and engaging blog posts. These posts are according to your industry, providing your audience with valuable insights, news, and updates. I ensures that your blog attracts organic traffic.',
     },
     {
         icon: <AiFillRead size={28} />,
-        title: 'Exam Preparation Service',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        title: 'Personal Writing',
+        desc: 'I offer personalized writing services tailored to your unique needs, whether its crafting compelling website copy, informative articles, or engaging blog posts to help you connect with your target audience effectively.',
     },
 ];
 
@@ -52,16 +52,16 @@ const Services = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 xl:px-20'>
                         {servicesData.map((service, index) => (
                             <div key={index}
-                                className='relative bg-greenGrey p-6 w-full h-80 overflow-hidden rounded shadow-md flex flex-col 
-                            transition-all duration-150 transform group'>
+                                className='relative bg-greenGrey p-6 w-full h-96 overflow-hidden rounded shadow-md flex flex-col 
+                                transition-all duration-150 transform group'>
                                 <div className='text-bgGreen bg-myGreen flex rounded-sm text-3xl w-10 h-10 justify-center items-center'>
                                     <div>{service.icon}</div>
                                 </div>
                                 <h3 className='text-xl font-semibold text-textRed text-white pt-6'>{service.title}</h3>
                                 <p className='text-textGrey pt-8'>{service.desc}</p>
-                                <button className='self-end flex items-center bg-myGreen text-greenGrey rounded px-2 py-1
-                            translate-y-[400%] group-hover:translate-y-16 transition-all duration-300 delay-150 font-semibold'>
-                                    Read More <span className="ml-3"><BsArrowRight size={18} /></span>
+                                <button className='self-end hidden items-center bg-myGreen text-greenGrey rounded px-2 py-1 absolute bottom-6
+                                group-hover:flex transition-all duration-1000 delay-300 font-semibold'>
+                                    Read More <span className="ml-3 hover:-rotate-45"><BsArrowRight size={18} /></span>
                                 </button>
                             </div>
                         ))}
