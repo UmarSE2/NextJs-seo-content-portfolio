@@ -52,16 +52,14 @@ const Services = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 xl:px-20'>
                         {servicesData.map((service, index) => (
                             <div key={index}
-                                className='relative bg-greenGrey p-6 w-full h-96 overflow-hidden rounded shadow-md flex flex-col 
-                                transition-all duration-150 transform group'>
+                                className='relative bg-greenGrey p-6 w-full overflow-hidden rounded shadow-md flex flex-col'>
                                 <div className='text-bgGreen bg-myGreen flex rounded-sm text-3xl w-10 h-10 justify-center items-center'>
                                     <div>{service.icon}</div>
                                 </div>
                                 <h3 className='text-xl font-semibold text-textRed text-white pt-6'>{service.title}</h3>
                                 <p className='text-textGrey pt-8'>{service.desc}</p>
-                                <button className='self-end hidden items-center bg-myGreen text-greenGrey rounded px-2 py-1 absolute bottom-6
-                                group-hover:flex transition-all duration-1000 delay-300 font-semibold'>
-                                    Read More <span className="ml-3 hover:-rotate-45"><BsArrowRight size={18} /></span>
+                                <button className='mt-4 group self-end items-center bg-myGreen text-greenGrey rounded px-3 flex py-1 font-semibold'>
+                                    Read More <span className="ml-3 group-hover:-rotate-45"><BsArrowRight size={18} /></span>
                                 </button>
                             </div>
                         ))}

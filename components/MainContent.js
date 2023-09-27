@@ -11,9 +11,7 @@ const MainContent = () => {
                         className='w-full md:w-64 h-60 z-10 border-[3px] border-mySkyBlue rounded-br-[130px]' />
                     <div className='flex flex-col md:flex-row items-center md:items-start md:ml-8 mt-4'>
                         <div className='flex flex-col items-center md:ml-8 ml-0'>
-                            <p className='text-white font-semibold tracking-wide text-4xl font-serif pb-6'>
-                                <span className='text-myGreen'>SEO Content Writing</span>
-                            </p>
+                            <p className='text-myGreen font-semibold text-center tracking-wide text-4xl font-serif pb-6'>SEO Content Writing</p>
                             <p className='text-white italic text-center md:text-start font-semibold tracking-wide text-3xl md:text-4xl font-serif pb-6'>
                                 Services You Can Trust
                             </p>
