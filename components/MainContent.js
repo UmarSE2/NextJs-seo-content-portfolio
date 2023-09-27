@@ -27,7 +27,7 @@ const MainContent = () => {
                         className='w-full md:w-[450px] h-64 border-[3px] border-myGreen rounded-bl-[80px] rounded-tr-[80px]' />
                     <div className='flex flex-col items-center md:ml-16 mt-8'>
                         <p className='text-textGrey font-medium pb-6 lg:w-96 w-60 text-center'>
-                            Your Journey to SEO Success Starts Here. Join Me in Boosting Your Website's Performance Today and Compelling Content!
+                            Your Journey to SEO Success Starts Here. Join Me in Boosting Your Website{`'`}s Performance Today and Compelling Content!
                         </p>
                         <Link href="#contact">
                             <button className="text-myGreen border-button w-32 hover:bg-myGreen hover:text-bgGreen font-semibold

@@ -22,7 +22,7 @@ const AboutMe = () => {
                         I Provide the Best Content <span className="text-myGreen">Writing</span> Service</h1>
                     <p className="text-textGrey pt-4 lg:w-[75%] sm:w-[80%] w-full">
                         I aim to provide a brief yet insightful glimpse into my journey as an SEO and content writing professional.
-                        I've honed my skills in optimizing online content and driving organic traffic.
+                        I{`'`}ve honed my skills in optimizing online content and driving organic traffic.
                         My commitment to staying ahead in this ever-evolving field ensures I deliver results for clients and partners alike.
                     </p>
                     <button onClick={handleDownloadResume}
